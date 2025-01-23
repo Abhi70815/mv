@@ -35,13 +35,13 @@ export default function Contact() {
               <AiFillSetting />
             </div>
             <div className="usercoderimg">
-              <img src="/img/coder.png" alt="user" />
+              <img src="/img/abhi.jpg" alt="user" className="w-full" />
             </div>
             <div className="usercoderinfo">
-              <h1>Manujaya Sasanka</h1>
+              <h1>Abhishek Chaurasia</h1>
               <h3>Web Developer</h3>
               <div className="usercodersvg">
-                <Link href="https://www.linkedin.com/in/manujaya-sasanka-4a4284218/">
+                <Link href="https://www.linkedin.com/in/abhishek_chaurasia_1/">
                   <FaHeart />
                 </Link>
               </div>

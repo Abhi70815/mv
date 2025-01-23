@@ -32,8 +32,8 @@ export default async function handle(req, res){
             res.json(category.reverse()); // reverse for showing latest data
         } else if (req.query?.slug) {
             //fetch movie by slug(url of the movie)
-            const slug = await Movie.find({slug: req.query.slug});
-            res.json(slug.reverse); // reverse for showing latest data
+            const slug = await Movie.findOne({slug: req.query.slug});
+            res.json(slug); // reverse for showing latest data
         } else {
             //fetch all movies
             const movies = await Movie.find();
