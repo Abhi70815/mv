@@ -37,7 +37,7 @@ export default function MoviesPost() {
     return (
         <div className="bg-gray-900 text-white">
             <Head>
-                <script src="https://cdn.tailwindcss.com"></script>
+                {/* <script src="https://cdn.tailwindcss.com"></script> */}
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
             </Head>
             <div className="container mx-auto p-4">
