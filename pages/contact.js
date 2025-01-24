@@ -90,7 +90,7 @@ export default function Contact() {
           {/* <div className="bottomcard">
             <div className="bcardtext">
               <p>
-                <FaEnvelope /> contact@makmovies.com
+                <FaEnvelope /> contact@FreeMovies.com
               </p>
               <p>
                 <FaPhoneAlt /> +94 783471760

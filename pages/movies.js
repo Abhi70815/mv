@@ -28,7 +28,7 @@ export default function movies() {
           <h1>Movies</h1>
           <p>
             Discover the best in movies, series, and exclusive content at
-            MakMovies. Your go-to platform for endless entertainment across
+            FreeMovies. Your go-to platform for endless entertainment across
             genres. Stay tuned for new releases and updates!
           </p>
         </div>

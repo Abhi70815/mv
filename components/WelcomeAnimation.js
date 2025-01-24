@@ -25,7 +25,7 @@ const WelcomeAnimation = () => {
                 Your browser does not support the video tag.
             </video>
             <div className='overlay'>
-                <div className='welcomeText'>Welcome to <span>Makmovies</span></div>
+                <div className='welcomeText'>Welcome to <span>FreeMovies</span></div>
             </div>
         </div>
     );

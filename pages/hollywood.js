@@ -19,7 +19,7 @@ export default function hollywood() {
  
     return <>
         <Head>
-            <title>ALL Hollywood | Makmovies</title>
+            <title>ALL Hollywood | FreeMovies</title>
             <meta name="description" content="All the Web Series" />
         </Head>
     
@@ -29,7 +29,7 @@ export default function hollywood() {
           <h1>Hollywood</h1>
           <p>
             Discover the best in movies, series, and exclusive content at
-            MakMovies. Your go-to platform for endless entertainment across
+            FreeMovies. Your go-to platform for endless entertainment across
             genres. Stay tuned for new releases and updates!
           </p>
         </div>

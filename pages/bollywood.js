@@ -19,7 +19,7 @@ export default function bollywood() {
    
     return <>
         <Head>
-            <title>ALL Bollywood | Makmovies</title>
+            <title>ALL Bollywood | FreeMovies</title>
             <meta name="description" content="All the Web Series" />
         </Head>
       
@@ -28,7 +28,7 @@ export default function bollywood() {
           <h1>Bollywood</h1>
           <p>
             Discover the best in movies, series, and exclusive content at
-            MakMovies. Your go-to platform for endless entertainment across
+            FreeMovies. Your go-to platform for endless entertainment across
             genres. Stay tuned for new releases and updates!
           </p>
         </div>

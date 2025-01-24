@@ -110,8 +110,8 @@ export default function Header() {
     return <>
 
     <nav className="header">
-        <h1 className="logo" data-text="&nbsp;Makmovies&nbsp;">
-            <a href="/">Makmovies&nbsp;</a>
+        <h1 className="logo" data-text="&nbsp;FreeMovies&nbsp;">
+            <a href="/">FreeMovies&nbsp;</a>
         </h1>
 
         <form className={searchbar ? "search_bar active" : "search_bar"}>
@@ -148,8 +148,8 @@ export default function Header() {
 
         <div id={navbar ? "navbaractive" : "navbar"}>
             <div className="navlogomovie">
-                <h1 className="logo" data-text="&nbsp;Makmovies&nbsp;">
-                    <a href="/">Makmovies&nbsp;</a>
+                <h1 className="logo" data-text="&nbsp;FreeMovies&nbsp;">
+                    <a href="/">FreeMovies&nbsp;</a>
                 </h1>
                 <div className="navclosesvg" onClick={handleNabarClose}><IoClose /></div>
             </div>

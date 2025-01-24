@@ -7,7 +7,7 @@ const category = (props) => {
     return (
         <>
         <Head>
-            <title>Genre - Category | Makmovies</title>
+            <title>Genre - Category | FreeMovies</title>
         </Head>
            
         </>

@@ -18,4 +18,4 @@ Disallow: /2023/04/
 User-agent: *
 Allow: /
 
-Sitemap: https://makmovies.in/sitemap.xml
+Sitemap: https://FreeMovies.in/sitemap.xml
