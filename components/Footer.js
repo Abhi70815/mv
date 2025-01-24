@@ -7,7 +7,7 @@ const Footer = () => {
                 <section className="m-auto footersec">
                     <div className="fcontent">
                         <div className="flogo">
-                            <h1><Link href="/">MakMovies</Link></h1>
+                            <h1><Link href="/">free Movies</Link></h1>
                         </div>
                         <div className="quicklink">
                             <li><Link href='/'>Home</Link></li>
@@ -22,11 +22,11 @@ const Footer = () => {
                     </div>
 
                     <div className="copyright">
-                        <p>Copyright &copy; 2024. All Rights Reserved | by&nbsp;<Link href='/'>MakMovies</Link></p>
+                        <p>Copyright &copy; 2024. All Rights Reserved | by&nbsp;<Link href='/'>free movies</Link></p>
                     </div>
                     <div className="fperasec">
-                        <p>Made with <span><FaHeart /> By&nbsp;<Link href='/'>MakMovies</Link></span></p>
-                        <p>Discover the best in movies, series, and exclusive content at MakMovies. Your go-to platform for endless entertainment across genres. Stay tuned for new releases and updates!</p>
+                        <p>Made with <span><FaHeart /> By&nbsp;<Link href='/'>Abhishek chaurasia</Link></span></p>
+                        <p>Discover the best in movies, series, and exclusive free of cost. Your go-to platform for endless entertainment across genres. Stay tuned for new releases and updates!</p>
                     </div>
                 </section>
             </footer>
