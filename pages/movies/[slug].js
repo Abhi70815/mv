@@ -29,7 +29,6 @@ export default function MoviesPost() {
             fetchMovieData();
         }
     }, [slug]);
-    console.log(movie);
 
     if (loading) return <Spinner />; // Show a loading spinner while fetching data
     if (error) return <div>{error}</div>; // Show error message if movie not found
@@ -67,14 +66,18 @@ export default function MoviesPost() {
                 </div>
                 <h2 className="text-2xl font-bold mb-6 text-center">Download Links</h2>
 
-                
-                <div className="space-y-4 flex flex-col items-center">
-                    {[...movie.downloadlink].map((quality) => (
-                        <a  className="block w-full sm:w-1/2 bg-green-500 text-black text-center py-2 rounded hover:bg-green-600" href={quality.value}>
-                          {quality}  DOWNLOAD Now <i className="fas fa-download"></i>
-                        </a>
-                    ))}
-                </div>
+                {console.log(Object.entries(movie.downloadlink))}
+              <div className="space-y-4 flex flex-col items-center">
+  {Object.entries(movie.downloadlink).map(([resolution, link]) => (
+    <a
+      key={resolution}
+      className="block w-full sm:w-1/2 bg-green-500 text-black text-center py-2 rounded hover:bg-green-600"
+      href={link}
+    >
+      {resolution} DOWNLOAD Now <i className="fas fa-download"></i>
+    </a>
+  ))}
+</div>
                 <h2 className="text-2xl font-bold mb-6 text-center mt-6">Watch Online Trailer</h2>
                 <div className="mb-8 flex justify-center">
                     <iframe className="w-full sm:w-1/2 h-64 sm:h-80 md:h-96 lg:h-112 xl:h-128" src="https://www.youtube.com/embed/bESWkKFsKZE" frameBorder="0" allowFullScreen></iframe>
